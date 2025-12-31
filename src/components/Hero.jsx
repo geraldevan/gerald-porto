@@ -83,7 +83,7 @@ const Hero = () => {
                     <div className="glass-card hero-card">
                         <div className="card-glow"></div>
                         <div className="profile-placeholder">
-                            <img src="src/images/photo.jpg" alt="Profile" className="profile-image" />
+                            <img src="https://noxccuzjrkvkcztozjlc.supabase.co/storage/v1/object/public/product-images/gerald2.png" alt="Profile" className="profile-image" />
                         </div>
                     </div>
                 </div>

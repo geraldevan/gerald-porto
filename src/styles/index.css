@@ -19,11 +19,11 @@
     /* Coral Pink */
     --color-accent-2: #FFC107;
     /* Amber */
-    --color-bg: #0F0F1E;
+    --color-bg: #050505;
     /* Deep Navy */
-    --color-bg-light: #1A1A2E;
+    --color-bg-light: #0A0A0A;
     /* Lighter Navy */
-    --color-bg-card: rgba(255, 255, 255, 0.05);
+    --color-bg-card: rgba(20, 20, 20, 0.6);
     --color-text: #F0F4F8;
     /* Softer white */
     --color-text-muted: #A0AEC0;
@@ -32,7 +32,7 @@
     --color-black: #000000;
 
     /* Glassmorphism */
-    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-bg: rgba(20, 20, 25, 0.4);
     --glass-border: rgba(255, 255, 255, 0.15);
     --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 
