@@ -53,7 +53,7 @@ export const certificationsData = [
         icon: '💼',
         title: 'Internship Certificate',
         description: 'Professional Experience',
-        credentialUrl: '#'
+        credentialUrl: 'https://drive.google.com/drive/folders/14KE2gGgTPWt8BlprxHDm-VDlvIVW8JuB?usp=drive_link'
     },
     {
         id: 9,

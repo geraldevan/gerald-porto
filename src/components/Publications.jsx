@@ -132,9 +132,17 @@ const Publications = () => {
                     .pub-link:hover {
                         gap: 1rem;
                     }
-                    @media (max-width: 768px) {
+                    @media (max-width: 968px) {
                         .pub-grid {
                             grid-template-columns: 1fr;
+                            gap: 1.5rem;
+                        }
+                        .pub-card-link {
+                            height: auto; /* Let it grow naturally */
+                        }
+                        .pub-card {
+                            height: auto;
+                            min-height: auto; /* Remove strict constraints */
                         }
                     }
                 `}</style>

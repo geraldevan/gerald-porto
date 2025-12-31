@@ -36,6 +36,12 @@ const Projects = () => {
                         }
                         .flip-card-front, .flip-card-back {
                             border-radius: 12px;
+                            width: 100% !important;
+                            height: 100% !important; /* Force fill */
+                        }
+                        .flip-card-inner {
+                            width: 100% !important;
+                            height: 100% !important; /* Force fill */
                         }
                     }
                 `}</style>
