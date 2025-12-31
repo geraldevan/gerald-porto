@@ -10,11 +10,27 @@ const Certifications = () => {
                 </div>
                 <div className="certifications-grid">
                     {certificationsData.map(cert => (
-                        <div key={cert.id} className="cert-card glass-card">
+                        <a
+                            key={cert.id}
+                            href={cert.credentialUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cert-card glass-card"
+                            style={{ textDecoration: 'none', color: 'inherit', display: 'block', cursor: 'pointer' }}
+                        >
                             <div className="cert-icon">{cert.icon}</div>
                             <h3>{cert.title}</h3>
                             <p>{cert.description}</p>
-                        </div>
+                            <span style={{
+                                marginTop: '1rem',
+                                display: 'inline-block',
+                                fontSize: '0.8rem',
+                                color: 'var(--color-primary)',
+                                borderBottom: '1px solid var(--color-primary)'
+                            }}>
+                                View Credential ↗
+                            </span>
+                        </a>
                     ))}
                 </div>
             </div>

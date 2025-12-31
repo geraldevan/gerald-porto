@@ -123,11 +123,11 @@ gerald-portfolio/
 ## 📞 Contact
 
 - **Email**: geraldevan5588@gmail.com
-- **Phone**: +62 812 1133 1078
+
 - **Location**: Depok, Jawa Barat, Indonesia
-- **LinkedIn**: [gerald-loppies](https://linkedin.com/in/gerald-loppies)
-- **GitHub**: [gerald-loppies](https://github.com/gerald-loppies)
-- **Instagram**: [@gerald.loppies](https://instagram.com/gerald.loppies)
+
+- **GitHub**: [https://github.com/geraldevan](https://github.com/geraldevan)
+
 
 ## 📄 License
 

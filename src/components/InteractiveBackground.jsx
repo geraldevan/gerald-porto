@@ -39,8 +39,8 @@ const InteractiveBackground = () => {
                 this.y = Math.random() * canvas.height;
                 this.vx = (Math.random() - 0.5) * 1.5; // Velocity
                 this.vy = (Math.random() - 0.5) * 1.5;
-                this.size = Math.random() * 2 + 1;
-                this.color = '#00E5FF'; // Primary Cyan color
+                this.size = Math.random() * 2 + 0.5; // Smaller particles
+                this.color = 'rgba(255, 255, 255, 0.5)'; // White/Silver
             }
 
             draw() {
@@ -108,8 +108,8 @@ const InteractiveBackground = () => {
 
                     if (distance < connectionDistance) {
                         ctx.beginPath();
-                        ctx.strokeStyle = `rgba(0, 229, 255, ${1 - distance / connectionDistance})`; // Fade out
-                        ctx.lineWidth = 1;
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${0.1 - distance / connectionDistance * 0.1})`; // Very subtle lines
+                        ctx.lineWidth = 0.5;
                         ctx.moveTo(particles[i].x, particles[i].y);
                         ctx.lineTo(particles[j].x, particles[j].y);
                         ctx.stroke();

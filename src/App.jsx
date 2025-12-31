@@ -1,10 +1,10 @@
 import Navbar from './components/Navbar'
 import InteractiveBackground from './components/InteractiveBackground'
 import Hero from './components/Hero'
-import Stats from './components/Stats'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Publications from './components/Publications'
 import Experience from './components/Experience'
 import Certifications from './components/Certifications'
 import Contact from './components/Contact'
@@ -16,10 +16,10 @@ function App() {
             <InteractiveBackground />
             <Navbar />
             <Hero />
-            <Stats />
             <About />
             <Skills />
             <Projects />
+            <Publications />
             <Experience />
             <Certifications />
             <Contact />

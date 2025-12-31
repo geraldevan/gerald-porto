@@ -1,70 +1,72 @@
 export const skillsData = [
     {
         id: 1,
-        icon: '🔌',
-        title: 'IoT Development',
+        icon: 'iot',
+        title: 'IoT & IT Support',
         skills: [
-            'ESP32/ESP8266',
-            'Arduino IDE',
-            'Embedded Systems',
-            'IoT Connectivity',
-            'Hardware Integration'
+            'IoT (Basic)',
+            'ESP32 / NodeMCU',
+            'Hardware Troubleshooting',
+            'Software Troubleshooting',
+            'Basic Networking',
+            'IT Support Services'
         ]
     },
     {
         id: 2,
-        icon: '🎨',
-        title: 'UI/UX Design',
-        skills: [
-            'Figma',
-            'Layouting',
-            'Prototyping',
-            'Visual Design'
-        ]
-    },
-    {
-        id: 3,
-        icon: '👁️',
+        icon: 'vision',
         title: 'Computer Vision',
         skills: [
+            'Python (Basic)',
             'OpenCV',
-            'Mediapipe',
+            'MediaPipe',
             'Skeleton Tracking',
             'Real-time Pose Analysis'
         ]
     },
     {
-        id: 4,
-        icon: '💾',
-        title: 'Database Management',
+        id: 3,
+        icon: 'professional',
+        title: 'Professional Skills',
         skills: [
-            'MySQL',
-            'Microsoft SQL Server',
-            'Oracle',
-            'phpMyAdmin',
-            'NetBeans'
+            'Communication',
+            'Teamwork',
+            'Willingness to Learn',
+            'Problem Solving',
+            'Adaptability'
+        ]
+    },
+    {
+        id: 4,
+        icon: 'design',
+        title: 'UI/UX Design',
+        skills: [
+            'Figma',
+            'Wireframing',
+            'Prototyping',
+            'User Centric Design'
         ]
     },
     {
         id: 5,
-        icon: '🎬',
-        title: 'Digital Content Creation',
+        icon: 'database',
+        title: 'Database & Tools',
         skills: [
-            'Premiere Pro',
-            'Illustrator',
-            'After Effects',
-            'Photoshop'
+            'MySQL',
+            'Microsoft SQL Server',
+            'phpMyAdmin',
+            'Git / GitHub'
         ]
     },
     {
         id: 6,
-        icon: '🚁',
-        title: 'Other Skills',
+        icon: 'content',
+        title: 'Content Creation',
         skills: [
-            'Drone Pilot',
-            'Aerial Mapping',
-            'UAV Operation',
-            'Multimedia & Sound System'
+            'Premiere Pro',
+            'Photoshop',
+            'Drone Operation',
+            'Multimedia Systems'
         ]
     }
 ];
