@@ -63,20 +63,9 @@ body {
     position: relative;
 }
 
+/* Body background handled by variable now, gradients removed for canvas */
 body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:
-        radial-gradient(circle at 20% 50%, rgba(0, 229, 255, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 40% 20%, rgba(124, 58, 237, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 60% 60%, rgba(255, 107, 157, 0.08) 0%, transparent 50%);
-    pointer-events: none;
-    z-index: 0;
+    display: none;
 }
 
 .container {

@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar'
+import InteractiveBackground from './components/InteractiveBackground'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
 import About from './components/About'
@@ -12,6 +13,7 @@ import Footer from './components/Footer'
 function App() {
     return (
         <>
+            <InteractiveBackground />
             <Navbar />
             <Hero />
             <Stats />

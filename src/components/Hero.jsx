@@ -1,41 +1,9 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 const Hero = () => {
-    const shapesRef = useRef([]);
 
     useEffect(() => {
-        let mouseX = 0;
-        let mouseY = 0;
-        let currentX = 0;
-        let currentY = 0;
-
-        const handleMouseMove = (e) => {
-            mouseX = e.clientX / window.innerWidth;
-            mouseY = e.clientY / window.innerHeight;
-        };
-
-        const animateShapes = () => {
-            currentX += (mouseX - currentX) * 0.1;
-            currentY += (mouseY - currentY) * 0.1;
-
-            shapesRef.current.forEach((shape, index) => {
-                if (shape) {
-                    const speed = (index + 1) * 0.3;
-                    const x = (currentX - 0.5) * speed * 50;
-                    const y = (currentY - 0.5) * speed * 50;
-                    shape.style.transform = `translate(${x}px, ${y}px)`;
-                }
-            });
-
-            requestAnimationFrame(animateShapes);
-        };
-
-        window.addEventListener('mousemove', handleMouseMove);
-        animateShapes();
-
-        return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-        };
+        // No-op for now, removing shape logic
     }, []);
 
     const handleDownloadCV = (e) => {
@@ -69,12 +37,6 @@ const Hero = () => {
 
     return (
         <section className="hero" id="home">
-            <div className="floating-shapes">
-                <div className="shape shape-1" ref={el => shapesRef.current[0] = el}></div>
-                <div className="shape shape-2" ref={el => shapesRef.current[1] = el}></div>
-                <div className="shape shape-3" ref={el => shapesRef.current[2] = el}></div>
-                <div className="shape shape-4" ref={el => shapesRef.current[3] = el}></div>
-            </div>
             <div className="hero-container">
                 <div className="hero-content">
                     <div className="hero-label">
