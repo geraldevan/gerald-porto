@@ -177,6 +177,7 @@ section {
     display: flex;
     gap: 2rem;
     list-style: none;
+    margin-left: 20px;
 }
 
 .nav-link {
